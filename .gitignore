@@ -1,0 +1,21 @@
+# Dependencies / builds
+node_modules/
+dist/
+build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+backend/venv/
+.pytest_cache/
+
+# Local environment (backend/.env holds dev defaults and is tracked;
+# machine-specific overrides belong in .env.local)
+.env.local
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
